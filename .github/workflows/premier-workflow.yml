@@ -1,3 +1,4 @@
+
 name: Mon premier workflow
 
 on:
@@ -19,6 +20,7 @@ jobs:
       - name: Nom du projet
         run: echo "Projet TP DevOps"
 
-      - name: afficher nom et dare execution
-        run: echo "yahyaoui abderrahamne"
-             echo "{date}"
+      - name: Afficher le nom et la date d'exécution
+        run: |
+          echo "Yahyaoui Abderrahmane"
+          echo "Date d'exécution : $(date)"
