@@ -22,5 +22,5 @@ jobs:
 
       - name: Afficher le nom et la date d'exécution
         run: |
-          echo "Yahyaoui Abderrahmane"
+          echo "Yahyaoui Abderrahmane et Akram Laid"
           echo "Date d'exécution : $(date)"
